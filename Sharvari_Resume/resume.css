@@ -1,0 +1,85 @@
+ body {
+            font-family: Segoe UI, sans-serif;
+           background-color: #f4f7f8;
+           color: #333;
+            line-height: 2rem;
+            margin: 0;
+            padding: 0;
+        }
+
+    
+        .container {
+            max-width: 800px;
+            background: #fff;
+            margin: 30px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+          
+        }
+        h1, h2 {
+            color: rgb(26, 58, 90);
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        .contact {
+            margin-bottom: 20px;
+        }
+        .contact p {
+            margin: 5px 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+
+        .skills span {
+        display: inline-block;
+        background: #e3f2fdaf;
+        color: #000102;
+        padding: 5px 10px;
+        margin: 5px;
+        border-radius: 20px;
+        font-size: 14px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .skills span:hover {
+        transform: scale(1.1);  
+        box-shadow: 0 2px 10px #e3f2fdad;  
+       }
+
+.colored-line {
+           border: none;
+            height: 3px; 
+              background-color:rgb(26, 58, 90); 
+           width: 100%; 
+          margin: 20px 0;
+}
+
+   .photo-content{
+    display: flex;
+    } 
+.photo img {
+  width: 250px; 
+  height: 250px;
+  border-radius: 50%; 
+  object-fit: cover;  
+  border: 3px solid rgb(26, 58, 90);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-left: 200px;
+  
+}
+
+.photo img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.6);
+}
+
+
+   
+
+
+   

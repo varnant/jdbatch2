@@ -1,0 +1,15 @@
+public class Bank{
+static int balance=10000;
+
+public static void main(String[] args){
+System.out.println("Balance:"+balance);
+int withdraw=3000;
+if(withdraw<=balance){
+balance-=withdraw;
+System.out.println("Withdrawn:"+withdraw);
+}else{
+  System.out.println("Not enough balance");
+}
+System.out.println("NEW Balannce"+balance);
+}
+}

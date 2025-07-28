@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume - Shraddha Nindekar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 40px;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #222;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    .contact {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    .table th, .table td {
+      border: 1px solid #999;
+      padding: 8px;
+      text-align: left;
+    }
+    .table th {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <h1>Shraddha Nindekar</h1>
+  <div class="contact">
+    <p>📞 +91 9307147733 | 📧 shraddhanindekar@gmail.com</p>
+  </div>
+
+  <section>
+    <h2>Education</h2>
+    <table class="table">
+      <tr>
+        <th>Sr. No</th>
+        <th>School/College</th>
+        <th>Board/University</th>
+        <th>CGPA/Percentage</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>JD College of Engineering and Management</td>
+        <td>DBATU (B.Tech CSE)</td>
+        <td>8.9 CGPA</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>J D Polytechnic</td>
+        <td>Maharashtra State Board of Technical Education</td>
+        <td>68%</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Nagpure Vidyalaya Nagpur</td>
+        <td>Maharashtra State Board</td>
+        <td>85.60%</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>HTML:</strong> Standard language used to create and design web pages. Structures web content using elements or tags.</li>
+      <li><strong>Excel (Beginner):</strong> Spreadsheet software by Microsoft for organizing, analyzing, and visualizing data.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Internship</h2>
+    <p><strong>C# - NRSolution4U</strong></p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <p><strong>Exam Management System:</strong> An online test platform with multiple features. Accessible via smart device and internet.</p>
+    <p><strong>Ride Safe:</strong> Intelligent bike safety system using IoT for accident prevention and rider security.</p>
+  </section>
+
+  <section>
+    <h2>Certificates</h2>
+    <ul>
+      <li>C# Certification</li>
+      <li>Internet Of Things (NPTEL)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Hobbies</h2>
+    <p>Listening to Music</p>
+  </section>
+</body>
+</html>
